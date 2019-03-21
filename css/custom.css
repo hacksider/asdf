@@ -1,0 +1,27 @@
+.title-bar-default {
+  margin-bottom: 0;
+}
+
+.slf-full-tabs > li {
+  width: 50%;
+}
+
+.btn-primary {
+  background-color: #eaab00;
+  border: 2px solid #eaab00;
+  color: #003946;
+}
+.submit {
+  margin: 30px auto;
+  padding: 8px 50px;
+  color: #003946;
+  font-weight: 600;
+}
+.justify-content-center {
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+.img-state {
+  margin: 0 auto;
+  width: 50%;
+}

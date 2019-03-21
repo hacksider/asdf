@@ -1,0 +1,156 @@
+.title-bar-default {
+  margin-bottom: 0;
+}
+
+.slf-full-tabs > li {
+  width: 50%;
+}
+
+.btn-primary {
+  background-color: #eaab00;
+  border: 2px solid #eaab00;
+  color: #003946;
+}
+.submit {
+  margin: 30px auto;
+  padding: 8px 50px !important;
+  border-radius: 5px !important;
+  color: #003946;
+  font-weight: 600;
+}
+.banner-section {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.payment-button {
+  width: 200px;
+  height: 180px;
+  border: 1px solid #000;
+  display: block;
+  border-radius: 7px;
+  padding: 10px;
+  position: relative;
+}
+.credit-card.payment-button {
+  background-color: #eaaa01;
+  border-width: 0;
+}
+
+.payment-wrapper {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+}
+.credit-card .payment-wrapper {
+  width: 30%;
+}
+.payment-label {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 20%;
+  color: #003946;
+}
+
+.payment-button.isDisabled {
+  cursor: default;
+}
+
+.float-right {
+  float: right;
+}
+.justify-content-center {
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+.img-state {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.content-center-80 {
+  margin: 0 auto;
+  width: 80%;
+}
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #4a7295;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #4a7295;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+input:checked + .slider:before {
+  background-color: #ffffff;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+  border: 1px solid #4a7295;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+  background-color: #4a7295;
+}
+
+input + .slider {
+  background-color: #fff;
+}
+.toggle > span {
+  display: inline-block;
+  vertical-align: top;
+  margin: 5px 0;
+  padding: 0 5px;
+}
